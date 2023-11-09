@@ -24,36 +24,41 @@
         <div class="submit-form">
             <fieldset>
                 <legend style="font-weight: bold; font-size: 1.2rem;">Let's do this</legend>
-                <div class="right-input-field" style="top: 60px">
-                    <input type="text"/>
-                    <label class="top">FIRST NAME</label>
-                </div>
-                <div class="left-input-field" style="top: 60px">
-                    <input type="text"/>
-                    <label class="top">LAST NAME</label>
-                </div>
-                <div class="right-input-field" style="top: 110px;">
-                    <input type="email"/>
-                    <label class="top">EMAIL</label>
-                </div>
-                <div class="left-input-field" style="top: 110px;">
-                    <input type="digit"/>
-                    <label class="top">PHONE NUMBER</label>
-                </div>
-                <div class="right-input-field" style="top: 160px;">
-                    <input type="password"/>
-                    <label class="top">PASSWORD</label>
-                </div>
-                <div class="left-input-field" style="top: 160px;">
-                    <input type="password"/>
-                    <label class="top">CONFIRM PASSWORD</label>
-                </div>
+                <form action="#" method="get">
+                    <div class="right-input-field" style="top: 60px">
+                        <input type="text" required/>
+                        <label class="top">FIRST NAME</label>
+                    </div>
+                    <div class="left-input-field" style="top: 60px">
+                        <input type="text" required/>
+                        <label class="top">LAST NAME</label>
+                    </div>
+                    <div class="right-input-field" style="top: 110px;">
+                        <input type="email" required/>
+                        <label class="top">EMAIL</label>
+                    </div>
+                    <div class="left-input-field" style="top: 110px;">
+                        <input type="text" required/>
+                        <label class="top">PHONE NUMBER</label>
+                    </div>
+                    <div id="password-div"class="right-input-field" style="top: 160px;">
+                        <input id="password" type="password"/>
+                        <label class="top">PASSWORD</label>
+                    </div>
+                    <div class="left-input-field" style="top: 160px;">
+                        <input id="current-password" type="password" required/>
+                        <label class="top">CONFIRM PASSWORD</label>
+                    </div>
+                
             </fieldset>
         </div>
         <div class="footer">
-            <button id="btn-create-account">Create Account</button>
+            <button onclick="isTheSamePassword()" id="btn-create-account">Create Account</button>
+        </form>
             <p style="font-weight: bold;">Already have an account? <span id="login">Log in</span></p>
         </div>
     </div>
+    <script src="myscripts.js"></script>
+
 </body>
 </html>
