@@ -1,0 +1,38 @@
+@font-face {
+    font-family: NorseBol;
+    src: url(fonts/Norse-Bold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+}
+.left-side{
+    display: flex;
+    position: relative;
+}
+.odin-headline{
+    display: flex;
+    position: absolute;
+    top: 20vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#odin-logo,
+.odin-headline{
+    height: 150px;
+}
+#left-side-img,
+.odin-headline{
+    width: 450px;
+}
+
+#odin-title{
+    font-family: NorseBol;
+    font-size: 5rem;
+    color: white;
+}
