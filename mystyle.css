@@ -45,7 +45,8 @@ fieldset {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    gap: 1rem;
 }
 .quote,
 .submit-form,
@@ -56,11 +57,13 @@ fieldset {
 .quote{
     font-weight: bold;
     font-size: 1.2rem;
+    margin-top: 5rem;
 }
 .submit-form{
     position: relative;
     display: flex;
     justify-content: flex-start;
+    height: 25vh;
 }
 label{
     position: absolute;
@@ -78,5 +81,13 @@ label{
 .left-input-field{
     position: absolute;  
     left: 30vh;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
 }
 
