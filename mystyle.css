@@ -97,6 +97,16 @@ label{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    
+    gap: 1rem;
 }
 
+#btn-create-account{
+    height: 3rem;
+    width: 10rem;
+    border-radius: 0.6rem;
+    border: 0;
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
