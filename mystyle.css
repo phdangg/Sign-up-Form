@@ -53,6 +53,10 @@ fieldset {
     margin-left: 2rem;
     width: 450px;
 }
+.quote{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 .submit-form{
     position: relative;
     display: flex;
@@ -61,7 +65,7 @@ fieldset {
 label{
     position: absolute;
     letter-spacing: 0.1rem;
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 .top{
     bottom: 100%;
